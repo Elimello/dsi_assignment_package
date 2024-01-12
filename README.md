@@ -7,7 +7,17 @@ Below you will find the steps to execute the package as well as other relevant i
 ### Install:
 
 Run the below command:
-pip install git+https://github.com/Elimello/dsi_assignment_package
+
+
+from assignmentpkg import Analysis
+
+analysis_obj = Analysis.Analysis('configs/analysis_config.yml')
+analysis_obj.load_data()
+
+analysis_output = analysis_obj.compute_analysis()
+print(analysis_output)
+
+analysis_figure = analysis_obj.plot_data()
 
 ### Contribute:
 
