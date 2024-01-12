@@ -8,16 +8,26 @@ Below you will find the steps to execute the package as well as other relevant i
 
 Run the below command:
 
-
+```
+# Install the package
+!pip install git+https://github.com/Elimello/dsi_assignment_package
+# Import the Analysis class from the assignmentpkg package
 from assignmentpkg import Analysis
 
+# Initialize the Analysys object with the analysis_config YAML file
+# The original path was replaced to accommodate the name change
 analysis_obj = Analysis.Analysis('configs/analysis_config.yml')
+
+# Proceed to load the data using the method load_data()
 analysis_obj.load_data()
 
+# Proceed to perform the analysis using the method compute_analysis()
 analysis_output = analysis_obj.compute_analysis()
 print(analysis_output)
 
+# Optionally, plot the outcomes of the analysis
 analysis_figure = analysis_obj.plot_data()
+```
 
 ### Contribute:
 
