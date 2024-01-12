@@ -27,6 +27,6 @@ class Analysis():
   def compute_analysis(self) -> Any:
     pass
 
-  def plot_data(self, save_path:Optional[str] = None) -> matplotlib.Figure:
+  def plot_data(self, save_path:Optional[str] = None)
     pass
 
