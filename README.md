@@ -25,6 +25,10 @@ analysis_obj.load_data()
 analysis_output = analysis_obj.compute_analysis()
 print(analysis_output)
 
+# Currenly not working, trying to create a function that can extract github data:
+# analysis_data = analysis_obj.get_user_data()
+# print(analysis_data)
+
 # Optionally, plot the outcomes of the analysis
 analysis_figure = analysis_obj.plot_data()
 ```
