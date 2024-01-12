@@ -70,7 +70,7 @@ class Analysis():
 
     pass
 
-  def get_user_data() -> dict:
+  def get_user_data(self) -> dict:
 
     """ Get the authenticated user data object from GitHub.
     Connect to the GitHub API and retrieve the authenticated users' data as Python dictionary.
