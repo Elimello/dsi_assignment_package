@@ -31,6 +31,12 @@ print(analysis_output)
 
 # Optionally, plot the outcomes of the analysis
 analysis_figure = analysis_obj.plot_data()
+
+# FINAL update
+# Dear Simeon and Tong, I apologize for not being able to make my package run fully
+# I was able to create and load most .py files, I just couldn't make the compute_analysis() run
+# Got entangled with some personal and work duties it's too late to find a group. 
+
 ```
 
 ### Contribute:
